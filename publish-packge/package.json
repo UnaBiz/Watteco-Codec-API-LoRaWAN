@@ -1,0 +1,21 @@
+{
+  "name": "@unabiz/watteco-codec-api-lorawan",
+  "version": "0.0.5",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup --config",
+    "publish-package": "node ./scripts/increase-publish.js"
+  },
+  "homepage": "https://github.com/UnaBiz/Watteco-Codec-API-LoRaWAN",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UnaBiz/Watteco-Codec-API-LoRaWAN.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "rollup": "^4.34.9"
+  }
+}
